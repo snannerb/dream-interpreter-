@@ -1,0 +1,44 @@
+/* Apply Pixel-Style Font and Reset Default Margins */
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #808080; /* Grey background */
+    color: #fff; /* White text for contrast */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style the Title */
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+/* Style the Widget Container */
+#widget-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the Footer */
+footer {
+    padding: 10px 0;
+    background-color: #333; /* Dark background for footer */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
